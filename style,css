@@ -1,0 +1,75 @@
+/* Estilo geral */
+body {
+    background-color: #f4f4f9; /* Cor suave */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4a90e2; /* Azul vibrante */
+    color: #fff;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Galeria */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+/* Imagens */
+.galeria img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+/* Seção música */
+.musica {
+    margin: 30px;
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+}
+
+.musica a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.musica a:hover {
+    background-color: #357ABD;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
